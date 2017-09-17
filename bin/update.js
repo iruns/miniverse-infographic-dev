@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 var shell = require("shelljs");
 var path = require("path");
+var fs = require("fs");
 
 shell.exec("echo shell.exec works");
 console.log("working");
