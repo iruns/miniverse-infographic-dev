@@ -1,6 +1,6 @@
 {
   "name": "miniverse-infographic-dev",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Node package for miniVerse infographic develpment.",
   "main": "index.js",
   "scripts": {
