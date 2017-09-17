@@ -1,0 +1,36 @@
+{
+  "name": "miniverse-infographic-dev",
+  "version": "0.1.0",
+  "description": "Node package for miniVerse infographic develpment.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "test": "mocha --compilers js:babel-core/register --recursive --watch --watch-extensions jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iruns/miniverse-infographic-dev.git"
+  },
+  "keywords": [
+    "infographic"
+  ],
+  "author": "irun siregar",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "mocha": "^3.2.0",
+    "object-hash": "^1.1.8",
+    "pg": "^7.2.0",
+    "request": "^2.81.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0",
+    "webpack": "^1.13.2"
+  }
+}
