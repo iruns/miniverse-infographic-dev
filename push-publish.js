@@ -3,7 +3,7 @@ var shell = require('shelljs');
 var pjson = require('./package.json');
 
 shell.exec('git add -A');
-if(process.argv[2]){
+if(process.argv[2] != undefined){
     shell.exec(`git commit -m "${process.argv[2]}"`);
     shell.exec(`npm version patch -m "${process.argv[2]}"`);
 }
