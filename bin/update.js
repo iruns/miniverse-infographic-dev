@@ -4,7 +4,7 @@ var path = require("path");
 var fs = require("fs");
 
 shell.exec("echo shell.exec works");
-console.log("working");
+console.log("working!!");
 
 var configPath;
 var config;

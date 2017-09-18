@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -d --watch",
-    "test": "mocha --compilers js:babel-core/register --recursive --watch --watch-extensions jsx"
+    "test": "mocha --compilers js:babel-core/register --recursive --watch --watch-extensions jsx",
+    "push-publish": "git add -A",
+    "wat": "run() {node push.js};"
   },
   "bin": {
     "mv-update": "bin/update.js"
@@ -23,8 +25,7 @@
   "author": "irun siregar",
   "license": "GPL-3.0",
   "dependencies": {
-    "lodash": "^4.15.0",
-    "shelljs": "^0.7.8"
+    "lodash": "^4.15.0"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
@@ -36,6 +37,7 @@
     "object-hash": "^1.1.8",
     "pg": "^7.2.0",
     "request": "^2.81.0",
+    "shelljs": "^0.7.8",
     "sinon": "^1.17.7",
     "sinon-chai": "^2.8.0",
     "webpack": "^1.13.2"
